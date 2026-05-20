@@ -243,11 +243,6 @@ export default function AboutPage() {
                   <div className="contact-icon">
                     <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.06 9.82a19.79 19.79 0 01-3.07-8.67A2 2 0 012 .93h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L6.09 8.82a16 16 0 006.29 6.29l1.16-1.16a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
                   </div>
-                  <div>
-                    <div className="contact-label">Phone</div>
-                    <div className="contact-value"><a href="tel:+919999833637">+91 99998 33637</a></div>
-                    <div className="contact-value" style={{ fontSize: ".8rem", marginTop: ".2rem", color: "rgba(255,255,255,.4)" }}>Ms. Neetal Narang</div>
-                  </div>
                 </div>
                 <div className="contact-item">
                   <div className="contact-icon">

@@ -1257,9 +1257,8 @@ export default function EarthionHome() {
             </p>
             <div className="footer-contact">
               <div><a href="mailto:sales@earthion.co.in">sales@earthion.co.in</a></div>
-              <div><a href="tel:+919999833637">+91 99998 33637</a></div>
+              <div><a href="mailto:sales@earthion.co.in">nn@earthion.co.in</a></div>
               <div>501, Pratiek Plaza, Goregaon (W), Mumbai – 400104</div>
-              <div style={{ fontSize: "0.78rem", marginTop: "0.25rem" }}>Contact: Ms. Neetal Narang</div>
             </div>
           </div>
           <div className="footer-col">
