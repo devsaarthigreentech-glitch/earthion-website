@@ -36,9 +36,31 @@ export default function ContactPage() {
     return () => obs.disconnect();
   }, []);
 
-  function handleSubmit() {
+  async function handleSubmit() {
     if (!form.name || !form.email) return;
-    setSubmitted(true);
+  
+    try {
+      const res = await fetch("https://n8n.saarthigreen.com/webhook/8bc7fef4-b839-4dc3-8965-af44f75fe631", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: form.name,
+          company: form.company,
+          email: form.email,
+          phone: form.phone,
+          type: form.type,
+          message: form.message,
+          source: "earthion-contact",
+          timestamp: new Date().toISOString(),
+        }),
+      });
+  
+      if (!res.ok) throw new Error("Failed");
+      setSubmitted(true);
+    } catch (err) {
+      console.error(err);
+      // optionally show an error state
+    }
   }
 
   return (
