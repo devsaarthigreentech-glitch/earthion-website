@@ -85,16 +85,21 @@ export default function Navbar({ activePage = "" }) {
       `}</style>
 
       <nav className={`e-nav${scrolled ? " scrolled" : ""}`}>
-        <Link href="/" className="e-nav-logo">
-          <Image
-            src="/images/earthion-logo-white-bg.png"
-            alt="Earthion Tech"
-            width={150}
-            height={38}
-            priority
-            style={{ height: 38, width: "auto" }}
-          />
-        </Link>
+      <Link href="/" className="nav-logo" style={{ 
+  background: "rgba(255,255,255,0.08)", 
+  borderRadius: 8, 
+  padding: "4px 10px",
+  backdropFilter: "blur(4px)"
+}}>
+  <Image
+    src="/images/earthion-logo-trans.png"
+    alt="Earthion Tech"
+    width={250}
+    height={100}
+    priority
+    style={{ height: 52, width: "auto", objectFit: "contain" }}
+  />
+</Link>
         <ul className="e-nav-links">
           {links.map((l) => (
             <li key={l.key}>

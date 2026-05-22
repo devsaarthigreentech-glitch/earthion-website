@@ -270,16 +270,21 @@ export default function VehiclesPage() {
 
       {/* NAV */}
       <nav className={`nav${scrolled ? " scrolled" : ""}`}>
-        <Link href="/" className="nav-logo">
-          <Image
-            src="/images/earthion-logo-white-bg.png"
-            alt="Earthion Tech"
-            width={150}
-            height={38}
-            priority
-            style={{ height: 38, width: "auto", filter: "brightness(0) invert(1)", objectFit: "contain" }}
-          />
-        </Link>
+      <Link href="/" className="nav-logo" style={{ 
+  background: "rgba(255,255,255,0.08)", 
+  borderRadius: 8, 
+  padding: "4px 10px",
+  backdropFilter: "blur(4px)"
+}}>
+  <Image
+    src="/images/earthion-logo-trans.png"
+    alt="Earthion Tech"
+    width={250}
+    height={100}
+    priority
+    style={{ height: 52, width: "auto", objectFit: "contain" }}
+  />
+</Link>
         <ul className="nav-links">
           <li><Link href="/solutions/dg-sets">DG Solutions</Link></li>
           <li><Link href="/solutions/vehicles" className="active">Vehicles</Link></li>
