@@ -494,12 +494,12 @@ export default function VehiclesPage() {
         </section>
       </main>
 
-      <footer className="footer">
+      {/* <footer className="footer">
         <div className="footer-bottom">
           <span className="footer-copy">© {new Date().getFullYear()} Earthion Tech LLP. All rights reserved.</span>
           <span className="footer-sgt">Technology by <a href="https://www.sgthydroedge.com" target="_blank" rel="noopener noreferrer">SGT HydroEdge</a></span>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }

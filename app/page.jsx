@@ -595,7 +595,7 @@ export default function EarthionHome() {
         </div>
 
         {/* SGT PARTNER */}
-        <div className="partner-strip">
+        {/* <div className="partner-strip">
           <div className="partner-inner">
             <div className="partner-text">
               <h3>Technology Partner: SGT HydroEdge</h3>
@@ -610,7 +610,7 @@ export default function EarthionHome() {
               Visit SGT HydroEdge ↗
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* CTA */}
         <section className="cta-section">
@@ -678,17 +678,17 @@ export default function EarthionHome() {
               <li><Link href="/contact">Contact</Link></li>
             </ul>
           </div>
-          <div className="footer-col">
+          {/* <div className="footer-col">
             <h4>Technology Partner</h4>
             <ul>
               <li><a href="https://www.sgthydroedge.com" target="_blank" rel="noopener noreferrer">SGT HydroEdge</a></li>
             </ul>
-          </div>
+          </div> */}
         </div>
-        <div className="footer-bottom">
+        {/* <div className="footer-bottom">
           <span className="footer-copy">© {new Date().getFullYear()} Earthion Tech LLP. All rights reserved.</span>
           <span className="footer-sgt">Technology by <a href="https://www.sgthydroedge.com" target="_blank" rel="noopener noreferrer">SGT HydroEdge</a> — Decarbonisation Infrastructure Company</span>
-        </div>
+        </div> */}
       </footer>
     </>
   );

@@ -274,12 +274,12 @@ export default function ContactPage() {
         </div>
       </main>
 
-      <footer className="footer-mini">
+      {/* <footer className="footer-mini">
         <div className="footer-mini-inner">
           <span className="footer-copy">© {new Date().getFullYear()} Earthion Tech LLP. All rights reserved.</span>
           <span className="footer-sgt">Technology by <a href="https://www.sgthydroedge.com" target="_blank" rel="noopener noreferrer">SGT HydroEdge</a></span>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }

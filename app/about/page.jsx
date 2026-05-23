@@ -19,7 +19,7 @@ const PILLARS = [
   {
     num: "01",
     title: "Earthion Tech — Sustainability Brand",
-    body: "Earthion Tech LLP delivers Controlled Hydrogen Fuel Assist (CHFA) technology — engineered in partnership with SGT HydroEdge — for diesel engines from 2L to 25L+ (vehicles) and 20 kVA to 4000 kVA (DG sets). Earthion brings the product to market with sales, deployment, calibration, and after-sales ownership. SGT brings the engineering pedigree.",
+    body: "Earthion Tech LLP delivers Controlled Hydrogen Fuel Assist (CHFA) technology — for diesel engines from 2L to 25L+ (vehicles) and 20 kVA to 4000 kVA (DG sets). Earthion brings the product to market with sales, deployment, calibration, and after-sales ownership.",
     badge: "Indigenously built. Field-tested. Fleet-ready.",
   },
   {
@@ -210,7 +210,7 @@ export default function AboutPage() {
         </section>
 
         {/* SGT PARTNER */}
-        <div className="partner-strip">
+        {/* <div className="partner-strip">
           <div className="partner-inner">
             <div className="partner-text">
               <h3>Technology Partner: SGT HydroEdge</h3>
@@ -226,7 +226,7 @@ export default function AboutPage() {
               Visit SGT HydroEdge ↗
             </a>
           </div>
-        </div>
+        </div> */}
 
         {/* CONTACT */}
         <div className="contact-section">
@@ -299,12 +299,12 @@ export default function AboutPage() {
 
       </main>
 
-      <footer className="footer-mini">
+      {/* <footer className="footer-mini">
         <div className="footer-mini-inner">
           <span className="footer-copy">© {new Date().getFullYear()} Earthion Tech LLP. All rights reserved. GST: 27AAMFE7855P1ZG</span>
           <span className="footer-sgt">Technology by <a href="https://www.sgthydroedge.com" target="_blank" rel="noopener noreferrer">SGT HydroEdge</a></span>
         </div>
-      </footer>
+      </footer> */}
     </>
   );
 }
