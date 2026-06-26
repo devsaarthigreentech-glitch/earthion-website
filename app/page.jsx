@@ -441,26 +441,26 @@ export default function EarthionHome() {
             <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: "1.5rem" }}>
               {[
                 {
-                  src: "/images/products/greendrive-mini.png",
-                  name: "GreenDrive Mini™",
-                  tag: "Vehicles · MCV / 6×6",
+                  src: "/images/products/earthion-HHOx-mini.png",
+                  name: "Earthion HHOx Mini™",
+                  tag: "Vehicles · MCV",
                   spec: "150–400 ml/min · 12V/24V",
                 },
                 {
-                  src: "/images/products/greendrive-neo.png",
-                  name: "GreenDrive Neo™",
-                  tag: "Vehicles · HCV / Heavy",
+                  src: "/images/products/earthion-HHOx-neo.png",
+                  name: "Earthion HHOx Neo™",
+                  tag: "Vehicles · HCV",
                   spec: "400–800 ml/min · 24V",
                 },
+                // {
+                //   src: "/images/products/greenx-1.png",
+                //   name: "GreenX™",
+                //   tag: "DG Sets · 25–250 kVA",
+                //   spec: "100–600 ml/min · 12/24V",
+                // },
                 {
-                  src: "/images/products/greenx-1.png",
-                  name: "GreenX™",
-                  tag: "DG Sets · 25–250 kVA",
-                  spec: "100–600 ml/min · 12/24V",
-                },
-                {
-                  src: "/images/products/greenx ultra.png",
-                  name: "GreenX Ultra™",
+                  src: "/images/products/earthion-HHOx-ultra.png",
+                  name: "Earthion HHOx Ultra™",
                   tag: "DG Sets · 250–4000 kVA",
                   spec: "600–1800 ml/min · 24V",
                 },
