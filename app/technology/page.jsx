@@ -190,7 +190,7 @@ export default function TechnologyPage() {
             <div className="reveal">
               <div className="section-label">System Architecture</div>
               <h2 className="section-h2">Four subsystems. Engineered for continuous duty.</h2>
-              <p className="section-body">GreenDrive™ (vehicles) and GreenX™ (DG sets) share the same core CHFA architecture — scaled and calibrated for each application.</p>
+              <p className="section-body">GreenDrive™ (vehicles) and HHOx™ (DG sets) share the same core CHFA architecture — scaled and calibrated for each application.</p>
             </div>
             <div className="comp-grid">
               {KEY_COMPONENTS.map((c, i) => (

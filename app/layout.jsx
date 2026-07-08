@@ -10,7 +10,7 @@ export const metadata = {
   description:
     "Earthion delivers Controlled Hydrogen Fuel Assist (CHFA) retrofit systems for diesel generators and vehicle fleets. NABL-validated fuel savings of 5–22% and particulate matter reduction up to 80%. Made in India.",
   keywords: [
-    "hydrogen fuel assist", "CHFA", "DG set decarbonisation", "GreenX", "GreenDrive",
+    "hydrogen fuel assist", "CHFA", "DG set decarbonisation", "HHOx", "GreenDrive",
     "diesel vehicle fuel savings", "fleet decarbonisation", "NABL emission testing",
     "Earthion Tech", "defence logistics fuel", "Mumbai green tech",
   ],

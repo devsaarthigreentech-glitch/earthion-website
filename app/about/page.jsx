@@ -37,7 +37,7 @@ const PILLARS = [
   {
     num: "04",
     title: "Service & Support — Mission-Grade",
-    body: "GreenDrive and GreenX are designed for workshop-level serviceability — no specialist tools, no proprietary consumables, no foreign service dependencies. Routine top-ups (water + occasional KOH electrolyte) can be done by any workshop personnel with standard training. Remote diagnostics via GreenVision™ pre-empt most field issues before they cause downtime.",
+    body: "GreenDrive and HHOx are designed for workshop-level serviceability — no specialist tools, no proprietary consumables, no foreign service dependencies. Routine top-ups (water + occasional KOH electrolyte) can be done by any workshop personnel with standard training. Remote diagnostics via GreenVision™ pre-empt most field issues before they cause downtime.",
     badge: "Pan-India field service. Custom AMC packages. 24×7 remote monitoring.",
   },
 ];

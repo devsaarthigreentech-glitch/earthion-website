@@ -240,7 +240,7 @@ export default function DGSetsPage() {
               <span className="breadcrumb-sep">/</span>
               <span className="breadcrumb-current">DG Set Solutions</span>
             </div>
-            <div className="page-tag">GreenX™ Technology</div>
+            <div className="page-tag">HHOx™ Technology</div>
             <h1 className="page-h1">
               Hydrogen Fuel Systems<br />
               for <em>Diesel Generators</em>

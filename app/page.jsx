@@ -40,7 +40,7 @@ const CERTIFICATIONS = [
 
 const PROCESS = [
   { step: "01", title: "Site Audit", desc: "We baseline your existing diesel assets — fuel consumption, load profiles, emission levels — before any hardware is fitted." },
-  { step: "02", title: "System Sizing", desc: "Each GreenX or GreenDrive unit is sized to your specific engine platform. One-size-fits-all is not our model." },
+  { step: "02", title: "System Sizing", desc: "Each HHOx or GreenDrive unit is sized to your specific engine platform. One-size-fits-all is not our model." },
   { step: "03", title: "Installation", desc: "Bolt-on retrofit. No engine modification. No fuel switch. Under 4 hours per asset with zero production downtime." },
   { step: "04", title: "NABL Testing", desc: "Post-installation stack emission testing by NABL-accredited laboratories. You receive independently certified numbers." },
   { step: "05", title: "Ongoing Optimisation", desc: "Continuous monitoring and dose calibration across the system lifecycle. We stay with you." },
@@ -371,7 +371,7 @@ export default function EarthionHome() {
                 </div>
                 <div className="solution-title">Hydrogen Fuel Systems<br />for Diesel Generators</div>
                 <p className="solution-desc">
-                  GreenX™ CHFA retrofit for DG sets from 25 kVA to 4,000 kVA. Cantonments,
+                  HHOx™ CHFA retrofit for DG sets from 25 kVA to 4,000 kVA. Cantonments,
                   hospitals, data centres, factories, or off-grid sites — if it runs on diesel,
                   it runs better with Earthion.
                 </p>
